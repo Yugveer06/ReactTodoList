@@ -53,8 +53,8 @@ function TodoWrapper() {
 						key={f}
 						onClick={() => setFilter(f)}
 						className={`${
-							filter === f ? "text-indigo-500" : "text-slate-900"
-						} text-white px-4 py-2 rounded relative`}
+							filter === f ? "text-indigo-500" : "text-slate-400"
+						} px-4 py-2 rounded relative`}
 					>
 						{f.charAt(0).toUpperCase() + f.slice(1)}
 						{filter === f && (
